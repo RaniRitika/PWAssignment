@@ -1,0 +1,71 @@
+body{
+    margin-top: 10px;
+    padding: 5px;
+    background-image: url("./asset/pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Red Rose", "cursive";
+   color: rgb(237, 195, 12);
+   font-weight: bolder;
+   font-size: xx-large;
+
+}
+
+.logo{
+    height: 2px;
+    width: 10px;
+}
+nav{  display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+nav ul{
+   
+    margin-left: 70px;
+    font-size: medium;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+a{  font-family: "Red Rose", "cursive";
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(237, 195, 12); 
+    text-decoration: none;
+}
+nav button{
+    font-family: "Red Rose", "cursive";
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    color: #fff;
+    background-color: rgb(233, 53, 77);
+    border-color:  rgb(233, 53, 77);
+}
+
+.content-section{
+    font-family: "Red Rose", "cursive";
+   text-align: center;
+   font-weight: bolder;
+   font-size: 60px;
+}
+
+.content-section-btns{
+    font-family: "Red Rose", "cursive";
+    height: 50px;
+    width: 180px;
+    background-color: rgb(233, 53, 77);
+    border-color:  rgb(233, 53, 77);
+    font-size: medium;
+    color: #fff;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    align-items: right end;
+    justify-content: end;
+    
+}
