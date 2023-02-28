@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(9, 9, 48);
+    align-content: center;
+}
+.menu{
+    display: none;
+}
+nav{  display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 500px;
+    justify-content: space-around;
+  
+}
+
+nav ul{
+     color: white;
+     list-style: none;
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+li:hover{
+    background-color: rgb(102, 35, 237);
+}
+li{
+    padding: 10px;
+    border-radius: 12px;
+    border-color: rgb(102, 35, 237) ;
+}
+.left-section{
+    color: white;
+    display: flex;
+    padding-left: 500px;
+}
+.hello{
+    padding-top: 50px;
+}
+.project1{
+    display: flex;
+    padding-left: 450px;
+   
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+.project2{
+    display: flex;
+    padding-left: 450px;
+   
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+h3{
+    color: #ffff;
+    text-align: center;
+    text-decoration: underline blue 3px;
+}
+.footer-section{
+   
+  padding-left: 730px;
+  padding-top: 8px;
+}
+span{
+    color: rgb(255, 225, 0);
+}
+@media (max-width: 480px) {
+    nav{
+     overflow: hidden;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+.pic{
+    display: block;
+ }
+ 
+    nav li{
+        background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+    }
+}
